@@ -1,0 +1,100 @@
+.header .brand {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.restaurant-page .inner-section {
+  max-width: 1130px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.restaurant-page .image-section {
+  margin: 52px 0 40px;
+  position: relative;
+}
+
+.restaurant-page .rest-img {
+  object-fit: cover;
+  object-position: 0 -125px;
+  height: 352px;
+  width: 100%;
+}
+
+.restaurant-page .gallery-btn {
+  border: none;
+  font: normal normal 600 16px/16px Poppins;
+  color: #192F60;
+  border-radius: 3px;
+  background-color: #fff;
+  opacity: 0.8;
+  padding: 13px 11px 12px 16px;
+  position: absolute;
+  bottom: 24px;
+  right: 27px;
+}
+
+.restaurant-page h1 {
+  font: normal normal 600 30px/46px Poppins;
+  color: #192F60;
+  margin-bottom: 22px;
+}
+
+.restaurant-page .place-order-btn {
+  border: none;
+  background-color: #CE0505;
+  border-radius: 6px;
+  font: normal normal medium 18px/18px Poppins;
+  float: right;
+  color: #fff;
+  padding: 13px 23px 12px 32px;
+  position: absolute;
+  right: 0;
+}
+
+.restaurant-page .restaurant-info-section {
+  color: #192F60;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.restaurant-info-section .nav {
+  width: 100%;
+}
+
+.restaurant-info-section .nav .nav-item .nav-link {
+  font: normal normal 600 18px/27px Poppins;
+  color: #192F60;
+  padding: 15px 22px;
+  border: none;
+}
+
+.restaurant-info-section .nav .nav-item .nav-link.active {
+  border-bottom: 2px solid red;
+}
+
+.restaurant-info-section .tab-content {
+  padding: 45px 0 0;
+}
+
+.restaurant-info-section .tab-content h3 {
+  color: #192F60;
+  font: normal normal 600 22px/33px Poppins;
+}
+
+.restaurant-info-section .tab-content p {
+  font: normal normal normal 16px/30px Poppins;
+  margin-bottom: 0;
+}
+
+.restaurant-info-section .tab-content .info-head {
+  font: normal normal 600 18px/27px Poppins;
+}
+
+.restaurant-page .place-order-btn {
+  z-index: 1;
+}

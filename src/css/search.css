@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* @font-face {
+  font-family: ;
+  src: url();
+} */
+body {
+  font-family: Poppins !important;
+}
+.search-page .brand {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-head {
+  margin: 30px 0;
+}
+
+.search-page .header-text-color {
+  color: #192f60;
+}
+
+.search-page .restaurant-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+}
+
+.search-page .my-pagination {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+.search-page .my-page-items {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border: 1px solid gray;
+  margin: 5px;
+  color: gray;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-page .active {
+  background-color: gray;
+  color: white;
+}
+
+.search-page .my-shadow {
+  box-shadow: 0px 0px 5px gray;
+  /* x-axis y-axis blur color */
+  /* +X(right) +Y(bottom)  */
+  /* -X(left) -Y(top)  */
+}
+
+.search-restaurant-item {
+  cursor: pointer;
+}
+
+.search-page input[type="text"] {
+  background-color: white;
+  color: white;
+}
+
+.search-page input[type="number"] {
+  background-color: red;
+  color: white;
+}
+
+.search-page input[type="email"]:hover {
+  background-color: red;
+  color: white;
+}
+
+.search-page a[href*=".pdf"]::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  display: inline-flex;
+  background-color: red;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.search-page a::after {
+  content: "\f08e";
+  font-family: FontAwesome;
+}
+
+.search-page a[href*=".pdf"]::after {
+  content: "\f1c1";
+  color: red;
+  margin: 0 5px;
+  font-family: FontAwesome;
+}
+
+.search-page a[href*=".doc"]::after {
+  content: "\F7D1";
+  font-family: bootstrap-icons;
+  color: navy;
+}
+
+.form-select,
+.form-select option,
+.form-check > * {
+  cursor: pointer;
+}
+
+.pagination-container {
+  margin-bottom: 0;
+}
+
+.pagination-container .pagination-item {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  height: 25px;
+  width: 25px;
+  font-size: 14px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.pagination-container .pagination-item.active {
+  border-radius: 50px;
+}
+
+.pagination-container .pagination-item.disabled {
+  color: lightgray;
+  pointer-events: none;
+}
